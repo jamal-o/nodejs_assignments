@@ -9,8 +9,8 @@ function randomDelay() {
 }
 
 function serveSystemInformation(res) {
-    let jsonResObj = {};
-    jsonResObj = {
+
+    let jsonResObj = {
         "Operating System": `${os.platform()}`,
         "CPU Info": os.cpus()
     };
